@@ -1,8 +1,69 @@
---- 
-layout: default 
-title: Web Programming 
---- 
-<div class="blurb"> 
- <h1>Hello Sweet World</h1> 
- <p>Once upon a time, ..</p> 
-</div> 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>
+            First Webpage
+        </title>
+        <link rel="stylesheet" type="text/css" href="page.css" media="all"/>
+    </head>
+    <body>
+        <header id="unhead">
+            <div>
+                <img id="avatar" alt="my avatar" src="./images/code.jpg">
+            </div>
+            <div id="Title">
+                <h1 id="myh1">Welcome to ADITI HOME PAGE</h1>
+            </div>
+        </header>
+        <nav class="menu">
+            <a class="active" href="#presentation">My Profile</a>
+            <a href="#subject">My Subject</a>
+            <a href="http://wwww.hw.ac.uk">My University</a>
+            <a href="https://f28wp.github.io">The Best Course I ever Had!</a>
+
+        </nav>
+        <div class="container">
+            <div class ="content">
+                <section id="presentation" onclick="window.location.hash='uhead';">>
+                    <h2>My Profile</h2>
+                    <div id="profile">
+                        <p>I am a student at Heriot Watt University.</a> I study second year BSc 
+                        Computer Science.I plan to pursue Software Engineering as my Honours.</p>
+                    </div>
+                    <div id="picture">
+                        <img id="photo" src="./images/monalisa.jpg">
+                    </div>
+                </section>
+                <article id="subject" onclick="window.location.hash='uhead';">>
+                    <br>
+                    <h2>History of Computer Science</h2>
+                    <p>People have been using mechanical devices to aid calculation for thousands of years. For example, the abacus probably existed in Babylonia (present-day Iraq) about 3000 B.C.E. 
+                        The ancient Greeks developed some very sophisticated analog computers. In 1901, an ancient Greek shipwreck was discovered off the island of Antikythera. 
+                        Inside was a salt-encrusted device (now called the <span class="bold"> Antikythera mechanism</span>) that consisted of rusted metal gears and pointers.
+                         When this c. 80 B.C.E. device was reconstructed, it produced a mechanism for predicting the motions of the stars and planets.</p>
+                  <br> 
+                  <p>In 1837 Charles Babbage first described his Analytical Engine which is accepted as the first design for a modern computer. 
+                    The analytical engine had expandable memory, an arithmetic unit, and logic processing capabilities able to interpret a programming language with loops and conditional branching.</p>
+                </article>
+
+            </div>
+            <div id="side">
+                <aside class="sidebar">
+                    <h2>Leisure</h2>
+                    <p>On free time I play Valorant.</p>
+                    
+                </aside>
+            </div>       
+         </div>
+         <footer id="foot">
+            <table align="center">
+                <tr>
+                    <td> Author: Aditi, Singh.</td>
+                    <td>Copyright: HWU, 2020</td>
+                    <td><a href="mailto:Aditi@gmail.com">Contact: aditi@gmail.com</a></td>
+                </tr>
+            </table>
+         </footer>
+    </body>
+</html>

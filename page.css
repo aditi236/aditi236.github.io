@@ -1,0 +1,116 @@
+/*header formatting----------------------------*/
+#unhead {
+    background-color: #9ba59c ;
+    width:100%;
+    display: flex;
+}
+/*avatar---------------------------------------*/
+#avatar {
+    width: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px #9ba59c;
+}
+/*heading for the title----------------------*/
+#myh1 {
+    font-size: 30px;
+    color: #e8e6d9;
+    text-align: center;
+    padding-top: 15px;
+}
+/*menu format-------------------------------*/
+.menu {
+    background-color: #f6ead4 ;
+    overflow: hidden;
+    
+}
+.menu a{
+    float:left;
+    color:#a2a595;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.menu a:hover{
+background-color: #b9999a;
+color: #f6ead4;
+}
+.menu a.active {
+    background-color: #b9999a;
+    color:#f6ead4;
+}
+/* heading within menu----------------------*/
+.sidebar h1 {
+    
+    text-align: center;
+    color:#a2a595;
+    
+}
+/*container----------------------------------*/
+#container {
+    margin: 0 auto;
+    position: relative;
+    
+          
+}
+#content{
+    margin-left: 160px;
+    float: left;
+    overflow: hidden;
+}
+#presentation {
+    background-color: #9ba59c;
+    width: 100%;
+    border: 1px #9ba59c;
+    color:#eae1d0;
+    overflow: hidden;
+
+}
+#profile {
+    width: 80%;
+    float: left;
+    overflow: auto;
+    display: block;
+}
+#photo {
+    width: 20%;
+    display: block;
+}
+
+article {
+    width: 100%;
+    border: 2px #a2a595;
+    background-color: #a2a595;
+    color: #edd8bc;
+    height: auto;
+    float: left;
+}
+.bold {
+    font-weight:bold;
+}
+#side{
+    z-index: 1;
+    top: 40%;
+    left: 1;
+    background-color: #f6ead4;
+    color:#9ba59c;
+    margin-right:50px;
+    margin-top: 30px;
+    width: 160px;
+    overflow-x: hidden;
+    position:absolute;
+}
+footer{
+    left:0;
+    bottom:0;
+    width: 100%;
+    background-color: #b9999a;
+    position: fixed;
+
+color: #f6ead4;
+text-align: center;
+}
+footer a{
+    color:#f6ead4;
+}
